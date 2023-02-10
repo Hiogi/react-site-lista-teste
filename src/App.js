@@ -14,6 +14,7 @@ function App() {
       <div className="main">
         <Lista items={['Coca-cola', 'Biscoito', 'YoPro', 'Salgado']}/>
         <Campo/>
+        {/* oi */}
       </div>
     </div>
   )};
