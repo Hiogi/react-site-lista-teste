@@ -1,25 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import { Campo } from './components/Campo';
+import { Lista } from './components/Lista';
+import { Sistema } from './components/Sistema';
+import { Titulo } from './components/Titulo';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Titulo nomes={{nome1: 'Kallil', nome2: 'Celso', nome3: 'Nelis'}}/>
+      <Sistema sistema= 'Sistema lista de compras'/>
+      <Lista items={['Coca-cola', 'Biscoito', 'YoPro', 'Salgado']}/>
+      <Campo/>
     </div>
-  );
-}
+  )};
 
 export default App;
