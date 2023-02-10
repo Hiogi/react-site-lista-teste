@@ -9,8 +9,8 @@ import { Titulo } from './components/Titulo';
 function App() {
   return (
     <div className="App">
-      <Titulo nomes={{nome1: 'Kallil', nome2: 'Celso', nome3: 'Nelis'}}/>
-        <Sistema sistema= 'Sistema lista de compras'/>
+      <Titulo nomes={{nome1: 'Kallil', nome2: 'Celso', nome3: 'Nelis', nome4: 'Visitante'}}/>
+      <Sistema sistema= 'Sistema lista de compras'/>
       <div className="main">
         <Lista items={['Coca-cola', 'Biscoito', 'YoPro', 'Salgado']}/>
         <Campo/>
