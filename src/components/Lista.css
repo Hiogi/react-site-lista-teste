@@ -1,9 +1,9 @@
-.Marcar {
+.marcar {
   display: flex;
   text-decoration: none;
 }
 
-.Lista ul {
+.lista ul {
   list-style: none;
   padding-left: 0;
 }

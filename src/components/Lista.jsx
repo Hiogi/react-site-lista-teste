@@ -3,18 +3,18 @@ import './Lista.css'
 export function Lista(props) {
 
   return (<>
-      <div className="Lista">
+      <div className="lista">
         <ul>
           {props.items.map(function(produto){
           return (
-            <div className='Marcar'>
-              <input type={'checkbox'} className='Check'/>  
+            <div className='marcar'>
+              <input type={'checkbox'} className='check'/>  
               <li>{produto}</li>      
             </div>)              
           })}
         </ul>
       </div>
-      <div className="Input">
+      <div className="input">
       </div>
   </>)
 }

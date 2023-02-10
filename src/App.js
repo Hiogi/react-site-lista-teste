@@ -10,9 +10,11 @@ function App() {
   return (
     <div className="App">
       <Titulo nomes={{nome1: 'Kallil', nome2: 'Celso', nome3: 'Nelis'}}/>
-      <Sistema sistema= 'Sistema lista de compras'/>
-      <Lista items={['Coca-cola', 'Biscoito', 'YoPro', 'Salgado']}/>
-      <Campo/>
+        <Sistema sistema= 'Sistema lista de compras'/>
+      <div className="main">
+        <Lista items={['Coca-cola', 'Biscoito', 'YoPro', 'Salgado']}/>
+        <Campo/>
+      </div>
     </div>
   )};
 
