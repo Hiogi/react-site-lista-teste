@@ -5,9 +5,9 @@ export function Lista(props) {
   return (<>
       <div className="lista">
         <ul>
-          {props.items.map(function(produto){
+          {props.items.map(function(produto,indice){
           return (
-            <div className='marcar'>
+            <div className='marcar' key={indice}>
               <input type={'checkbox'} className='check'/>  
               <li>{produto}</li>      
             </div>)              
